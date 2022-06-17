@@ -1,25 +1,21 @@
 .content {
-  margin: 0 148px;
   border: 1px dotted red;
 }
 
 @media screen and (max-width: 1280px) {
   .content {
-    margin: 0 48px;
     border: 1px dotted blue;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .content {
-    margin: 0 24px;
     border: 1px dotted green;
   }
 }
 
 @media screen and (max-width: 768px) {
   .content {
-    margin: 0 16px;
     border: 1px dotted yellow;
   }
 }
