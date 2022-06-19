@@ -3,13 +3,13 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  width: 560px;
+  max-width: 560px;
   color: #fff;
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
-    width: 288px;
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
   }
