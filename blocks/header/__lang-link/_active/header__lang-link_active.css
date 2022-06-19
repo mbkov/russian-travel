@@ -1,3 +1,5 @@
 .header__lang-link_active {
   border-bottom: 2px solid #fff;
+  cursor: default;
+  pointer-events: none;
 }
