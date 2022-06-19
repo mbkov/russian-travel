@@ -1,9 +1,6 @@
-/* 1 - Глобалтные стили */
 @import url(../vendor/normalize-styles/normalize.css);
 @import url(../vendor/fonts/Inter.css);
 @import url(../blocks/page/page.css);
-/* 1 */
-/* 2 - Стили по порядку */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
@@ -36,4 +33,7 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
-/* 2 */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
