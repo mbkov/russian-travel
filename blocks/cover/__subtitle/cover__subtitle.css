@@ -5,3 +5,11 @@
   text-align: center;
   width: 360px;
 }
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
