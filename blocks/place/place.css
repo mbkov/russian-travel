@@ -1,7 +1,7 @@
 .place {
   margin: auto;
   display: grid;
-  grid-template-columns: 460px max-content(484px);
+  grid-template-columns: 460px 1fr;
   grid-template-rows: repeat(2, min-content);
   gap: 48px 40px;
   max-width: 984px;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1279px) {
   .place {
-    grid-template-columns: 440px max-content(456px);
+    grid-template-columns: 440px 1fr;
     gap: 48px 32px;
     max-width: 928px;
   }
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 1023px) {
   .place {
-    grid-template-columns: 340px 352px;
+    grid-template-columns: 340px 1fr;
     gap: 48px 28px;
     max-width: 720px;
   }
