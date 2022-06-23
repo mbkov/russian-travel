@@ -6,6 +6,8 @@
   max-width: 560px;
   color: #fff;
   font-weight: 900;
+  position: relative;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
